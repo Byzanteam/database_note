@@ -1,0 +1,52 @@
+# namespaces
+
+| 字段名称 | 字段类型 | 字段含义 |
+| :-----: | :-----: | :-----: 
+| id | integer |  |
+| name | string |  |
+| created_at | datetime |  |
+| updated_at | datetime |  |
+| appid | string |  |
+| appsecret | string |  |
+| token | string |  |
+| access_token | string |  |
+| categories_public | boolean |  |
+| identifier_alias | string |  |
+| attendance_enable | boolean |  |
+| certificated_ip | inet |  |
+| push_phone | string |  |
+| menu_payload | json |  |
+| category_menu_payload | json |  |
+| logo | string |  |
+| signup_enable | boolean |  |
+| customer_service_reg | string |  |
+| customer_service_enable | boolean |  |
+| customer_service_prompt | text |  |
+| profile_required | boolean |  |
+| admin_user_ids | integer |  |
+| namecard_version | integer |  |
+| namecard_enable | boolean |  |
+| superior_ids | integer |  |
+| template_message_id | string |  |
+| site_name | string |  |
+| remote_responder_uri | string |  |
+| remote_responder_token | string |  |
+| short_url_in_sms | boolean |  |
+| identifier_case | integer |  |
+| comment_enable | boolean |  |
+| brand_images_preferences | json |  |
+| unread_cover | string |  |
+| help_html | text |  |
+| verify_with_name | boolean |  |
+| private_token | string |  |
+| authorization_info | jsonb |  |
+| domain_verify_file | string |  |
+| wxpay_settings | jsonb |  |
+| wxpay_pkcs12 | string |  |
+| push_interval | integer |  |
+| settings | jsonb |  |
+| features | string |  |
+| custom_css | jsonb |  |
+| wx_template_settings | jsonb |  |
+| deleted_at | datetime |  |
+
