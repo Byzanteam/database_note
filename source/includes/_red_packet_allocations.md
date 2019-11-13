@@ -2,12 +2,12 @@
 
 | 字段名称 | 字段类型 | 字段含义 |
 | :-----: | :-----: | :-----: 
-| id | integer |  |
-| user_id | integer |  |
-| admin_id | integer |  |
-| allocated_amount | decimal |  |
-| available_amount | decimal |  |
-| remark | string |  |
-| created_at | datetime |  |
-| updated_at | datetime |  |
+| id | int | 主键 |
+| user_id | int | 用户 id  |
+| admin_id | int | 管理员 id |
+| allocated_amount | decimal | 分配金额 |
+| available_amount | decimal | 可用金额 |
+| remark | varchar | 标记 |
+| created_at | timestamp | 插入时间 |
+| updated_at | timestamp | 更新时间 |
 

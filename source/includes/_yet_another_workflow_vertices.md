@@ -2,20 +2,20 @@
 
 | 字段名称 | 字段类型 | 字段含义 |
 | :-----: | :-----: | :-----: 
-| id | integer |  |
-| name | string |  |
-| type | string |  |
-| operations | jsonb |  |
-| metadata | jsonb |  |
-| created_at | datetime |  |
-| updated_at | datetime |  |
-| graph_id | integer |  |
-| out_edges_count | integer |  |
-| in_edges_count | integer |  |
-| field_ids | integer |  |
-| flow_id | integer |  |
-| settings | jsonb |  |
-| responses_count | integer |  |
-| active_errors | jsonb |  |
-| deleted_at | datetime |  |
+| id | int | 主键 |
+| name | varchar | 名字  |
+| type | varchar | 类型 |
+| operations | jsonb | 操作者 |
+| metadata | jsonb | 元数据 |
+| created_at | timestamp | 插入时间 |
+| updated_at | timestamp | 更新时间 |
+| graph_id | int | 图 id |
+| out_edges_count | int | 边缘数量 |
+| in_edges_count | int | 边数 |
+| field_ids | int | 字段 id |
+| flow_id | int | 流程 id |
+| settings | jsonb | 设置 |
+| responses_count | int | response 数量 |
+| active_errors | jsonb | 错误信息 |
+| deleted_at | timestamp | 删除时间 |
 

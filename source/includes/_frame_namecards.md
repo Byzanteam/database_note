@@ -2,10 +2,10 @@
 
 | 字段名称 | 字段类型 | 字段含义 |
 | :-----: | :-----: | :-----: 
-| id | integer |  |
-| frame | string |  |
-| namespace_id | integer |  |
-| created_at | datetime |  |
-| updated_at | datetime |  |
-| preview | string |  |
+| id | int | 主键 |
+| frame | varchar |  |
+| namespace_id | int | 空间 id |
+| created_at | timestamp | 插入时间 |
+| updated_at | timestamp | 更新时间 |
+| preview | varchar | 预览 |
 

@@ -2,15 +2,15 @@
 
 | 字段名称 | 字段类型 | 字段含义 |
 | :-----: | :-----: | :-----: 
-| id | integer |  |
-| comment | text |  |
-| esignature | text |  |
-| status | integer |  |
-| field_ids | integer |  |
-| response_cache | jsonb |  |
-| created_at | datetime |  |
-| updated_at | datetime |  |
-| journey_id | integer |  |
-| vertex_id | integer |  |
-| assignment_id | integer |  |
+| id | int | 主键 |
+| comment | text | 评论 |
+| esignature | text | 图画 |
+| status | int | 状态 |
+| field_ids | int | 字段 id |
+| response_cache | jsonb | response 缓存 |
+| created_at | timestamp | 插入时间 |
+| updated_at | timestamp | 更新时间 |
+| journey_id | int | 流程 id |
+| vertex_id | int | 节点 id |
+| assignment_id | int | 任务 id |
 

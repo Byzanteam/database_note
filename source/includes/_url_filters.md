@@ -2,10 +2,10 @@
 
 | 字段名称 | 字段类型 | 字段含义 |
 | :-----: | :-----: | :-----: 
-| id | integer |  |
-| namespace_id | integer |  |
-| white_lists | string |  |
-| enabled | boolean |  |
-| created_at | datetime |  |
-| updated_at | datetime |  |
+| id | int | 主键 |
+| namespace_id | int | 空间 id |
+| white_lists | varchar | 列表 |
+| enabled | boolean | 开关 |
+| created_at | timestamp | 插入时间 |
+| updated_at | timestamp | 更新时间 |
 
